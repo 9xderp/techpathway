@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+
+</header>
+<body>
+    <h1>test equipment</h1>
+        <p>
+            this area is for familiarizing yourself with the advanced tools available to technitions
+        </p>
+
+<section>
+    <h2>fluke dsp-4000</h2>
+    <p>
+        the fluke dsp-4000 is a great piece of kit. it will quickly diagnoe the existing state of connections of an ethernet wire run.
+    </p>
+    <h3>things that go wrong with an ethernet cable post install</h3>
+        <ul>
+            <li>pinching wire</li>
+            <li>movement breaking a set of strands from hardening and over working</li>
+            <li>the sliding pins in a rj45 plug failing</li>
+            <li>the crimping area where the indiviual wire meets the pin breaks</li>
+        </ul>
+    <h3>TDR test</h3>
+        <p>
+            time domain reflection. this is basically sonar for the copper wire. it sends an electric pulse down the wire and senses smaller pules coming back. since the pulse moves at the speed of light all the device has to do is measure the time and it can tell what area of the wire produces each back pulse. 
+        </p>
+        <p>
+            every change of inductance and or resistance will produce a back pulse. bigger the pulse the bigger the resistance. at the end of the cable run there will be the remainder of the initial pulse unless it is terminated. the tools should be able to tell you within a few feet where each pulse is relative to the starting point
+        </p>
+            <ul>things to be aware of
+                <li>be sure and subtract your lead in cable you are using if your using one.</li>
+                <li>each twisted pair will show a different total length in the same run. this is from the different twist rates in the cable</li>
+                <li>relative to the train each connection is several feet away from each other and its easy to pinpoint what connection is popping a response</li>
+                <li>i recommend initially taking a tdr reading before messing with the cable run. this will give you a starting point to work from. once you start messing with connectors in the middle of the run you have disturbed it and changed things.after you take the initial tdr results you can switch to reistance mode and manipulate the area that popped on the tdr. </li>
+                <li>the scan function here is sometimes useful. but not nearly as useful as teh scan mode in the resistance test.</li>
+            </ul>
+        <p>
+
+        </p>
+    <h3>resistance test</h3>
+        <p>
+            this unit will test all 8 strands of the 4 twisted pair ethernet cable at once. you can take just one test or set the unit to scan. this will take a test every second or two. this is a nice feature because it allows you to manipulate the cable and connections while testing all 8 strands of wire. 
+        </p>
+            <ul>
+                <li>the resistance will change over the length of the run. every cable has a defined resistance per foot and each connection will add to the overall resistance. </li>
+                <li></li>
+            </ul>
+</section>
+
+<section>
+this is a great site that i see so far <a href="https://www.electronics-notes.com/articles/connectivity/ethernet-ieee-802-3/basics-tutorial.php">site on ethernet and many other electrical stuff</a>
+</section>
+
+<footer>
+    <a href="mailto:zearo10@yahoo.com">send email</a>
+</footer>
+
+</body>
+</html>
